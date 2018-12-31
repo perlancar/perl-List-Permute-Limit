@@ -31,6 +31,7 @@ my %args_common = (
 );
 
 $SPEC{permute_iter} = {
+    v => 1.1,
     args => {
         %args_common,
     },
@@ -92,6 +93,7 @@ sub permute_iter {
 }
 
 $SPEC{permute} = {
+    v => 1.1,
     args => {
         %args_common,
     },
